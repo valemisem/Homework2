@@ -53,7 +53,7 @@ console.log(typeof(Number(ageUser)))
 
 _Как это выглядит в терминале:_
 
-26
-string
-26
-number
+26  
+string  
+26  
+number  
