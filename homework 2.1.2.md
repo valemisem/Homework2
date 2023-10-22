@@ -43,7 +43,7 @@ let ageUser
 ageUser = "26" // строка
 console.log(ageUser)
 
-console.log(typeof(String(ageUser)));
+console.log(typeof(ageUser);
 
 let num = Number(ageUser); // становится числом 26
 console.log(ageUser)
