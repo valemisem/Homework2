@@ -1,4 +1,5 @@
 let userName = 'Valentina'
+let userNameShort = userName.slice(0, 1)
 let userSurname = 'Mikhailova'
 
 const introScore = 50 
@@ -13,7 +14,7 @@ console.log(introScore, " ", "балл за модуль 1")
 console.log(gitScore, " ", "балл за модуль 2")
 console.log(jsScore, " ", "балл за модуль 3")
 console.log(averageTotal, " ", "среднее значение по всем модулям")
-console.log(userName, userSurname)
+console.log(userNameShort, ". ", userSurname)
 
 console.log(userInfo)
 
