@@ -45,7 +45,7 @@ console.log(typeof(ageUser));
 
 let num = Number(ageUser); // становится числом 26
 console.log(num)
-console.log(typeof(Number(ageUser)))
+console.log(typeof(num))
 
 ```
 
