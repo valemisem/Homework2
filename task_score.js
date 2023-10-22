@@ -1,3 +1,5 @@
+//homework 2.1.3.
+
 let userName = 'Valentina'
 let userNameShort = userName.slice(0, 1)
 let userSurname = 'Mikhailova'
