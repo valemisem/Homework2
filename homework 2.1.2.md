@@ -39,16 +39,14 @@ _условие ? выражение1 : выражение2_
 ### Пример кода с использованием динамической типизации в JS (присвоили строковое значение переменной, а затем перезаписали на другой тип данных)
 
 ```js
-let ageUser
-ageUser = "26" // строка
+let ageUser = String("26")
 console.log(ageUser)
-
-console.log(typeof(ageUser);
+console.log(typeof(ageUser));
 
 let num = Number(ageUser); // становится числом 26
 console.log(ageUser)
-
 console.log(typeof(Number(ageUser)))
+
 ```
 
 _Как это выглядит в терминале:_
