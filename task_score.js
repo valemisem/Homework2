@@ -20,3 +20,5 @@ console.log(userNameShort, ". ", userSurname)
 
 console.log(userInfo)
 
+let userTotalInfo = `${userNameShort}. ${userSurname} - ${averageTotal} баллов`
+console.log(userTotalInfo)
