@@ -1,22 +1,23 @@
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y;
   return x;
 }
 
-function decreaseBalance(x, y) { //added y as a parameter 
-x = x - y;
-return x;
+function decreaseBalance(x, y) {
+  //added y as a parameter
+  x -= y;
+  return x;
 }
 
 function divideBalanceByAccounts(x, y) {
-  x = x / y;
+  x /= y;
   return x;
   // console.log('x'); // console.log displays a string or variable in the console window
   // return - returns the specified value
 }
 
 function getRestAfterDivision(x, y) {
-  x = x % y;
+  x %= y;
   return x;
 }
 
