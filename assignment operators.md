@@ -42,3 +42,21 @@ console.log(x);
 **Output:**
 >11        
 >11            
+
+### 1. Decrement (--)
+
+If used postfix, with **operator _after_ operand** (for example, x--), the decrement operator decrements and returns the value _before decrementing_.
+
+```js
+let x = 3;
+const y = x--;
+// x is 2; y is 3
+```
+
+If used prefix, with **operator _before_ operand** (for example, --x), the decrement operator decrements and returns the value _after decrementing_.
+
+```js
+let x = 3;
+const y = --x;
+// x is 2; y = 2
+```
