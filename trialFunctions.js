@@ -31,7 +31,7 @@ let respRedirect300 = { // объект второй, тоже респонс
   }
 }
 
-let isResponseOk = function (code, expectedCode) {   // мы используем эти наши два объекта для проверки функции ("скармиливаем" объекты функции)
+let isResponseOk = (code, expectedCode) => {   // мы используем эти наши два объекта для проверки функции ("скармиливаем" объекты функции)
   if (code === expectedCode) {  // цель: чтобы функция получила текстовое сообющение которое находится внутри объекта
     return true
   } else {
@@ -53,3 +53,9 @@ function getInfoFromResponse (response, codeValidation, expectedCode) {
 }
 
 console.log(getInfoFromResponse(respPositive200, isResponseOk, 200))
+
+let someArrowFunction = () => {return 55}
+console.log(someArrowFunction())
+
+let isValid = (code) => code == 200 // boolean true false, стрелочная функция для сокращения кода
+console.log(isValid(200))
