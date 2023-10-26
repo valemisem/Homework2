@@ -29,26 +29,25 @@ console.log(getRestAfterDivision(7000, 3));
 // DECREMENT AND INCREMENT FUNCTIONS
 
 function decr1(x) {
-  x = --x
-  return x
+  x = --x;
+  return x;
 }
 console.log(decr1(5)); // возвращаем в консоль х = 4
 
 function decr2(x) {
-  x = x--
-  return x
+  x = x--;
+  return x;
 }
 console.log(decr2(5)); // возвращаем в консоль х = 5
 
 function increment1(x) {
-  x = ++x
-  return x
+  x = ++x;
+  return x;
 }
 console.log(increment1(5)); // возвращаем в консоль х = 6
 
 function increment2(x) {
-  x = x++
-  return x
+  x = x++;
+  return x;
 }
 console.log(increment2(5)); // возвращаем в консоль х = 5
-
